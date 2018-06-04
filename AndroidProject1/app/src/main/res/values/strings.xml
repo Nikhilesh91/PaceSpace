@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Pace Space</string>
+
+
+    // The string declaration for Main Activity Class starts here
+    <string name="str_MainActivity_class_Validation_UserName">Please enter the user name</string>
+    <string name="str_MainActivity_class_Validation_Password">Please enter the password</string>
+    <string name="str_MainActivity_class_Validation_Result">Incorrect username or password</string>
+    // The string declaration for Main Activity class ends here
+
+    // The String declaration for Registration Class starts here
+
+    <string name="str_RegistrationActivity_Class_Validation_FirstName">Please enter the first name</string>
+    <string name="str_RegistrationActivity_Class_Validation_LastName">Please enter the last name</string>
+    <string name="str_RegistrationActivity_Class_Validation_email">Please enter the email</string>
+    <string name="str_RegistrationActivity_Class_Validation_graduation_Year">Please enter the graduation year</string>
+    <string name="str_RegistrationActivity_Class_Validation_password">Please enter the password</string>
+    <string name="str_RegistrationActivity_Class_Validation_confirmPassword">Please enter the confirm password fiend</string>
+    <string name="str_RegistrationActivity_Class_Validation_comparePassword">It seems the password and compare password do not match</string>
+    <string name="str_RegistrationActivity_Class_Validation_UserRegisteredSuccess">User details registered successfully</string>
+    <string name="str_RegistrationActivity_Class_Validation_Image_Failure">Image could not be uploaded</string>
+    <string name="str_RegistrationActivity_Class_Validation_User_Already_Exists">It seems that a user with the user id already exists.</string>
+
+    // The string declaration for registration class ends here
+
+
+    // The String declaration for EventActivity Class starts here
+
+    <string name="str_EventActivity_Class_Validation_title">Please enter the title for hte event</string>
+    <string name="str_EventActivity_Class_Validation_description">Please enter the description</string>
+    //The String declaration for EventActivity Class ends here
+
+
+    // The String declaration for rate professor starts here
+
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="prompt_password">Prompt Password</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="prof_rated">Professor Rated Sucessfully</string>
+    <string name="prof_Added">Professor Added Successfully</string>
+    <string name="subjectName">Name of Course</string>
+    <string name="professorName">Professor Name </string>
+    <string name="AddProf">Add Professor </string>
+    <string name="rateProf">Rate Professor </string>
+    <string name="profDesc">Professor Description</string>
+
+    // The string declaration for rate professor ends here
+
+
+    // The string declaration for JobOpeningActivity starts here
+
+    <string name="str_JobOpeningActivity_Class_Validation_title"> Please enter the title</string>
+    <string name="str_JobOpeningActivity_Class_Validation_qualification">Please enter the qualification</string>
+    <string name="str_JobOpeningActivity_Class_Validation_contact">Please enter the contact</string>
+
+    // The string declaration for jobOpeningsActivity ends here
+
+    //courses String
+    <string name="enter_all_fields">Please enter all the fields</string>
+    <string name="course_Added">Course Added Successfully</string>
+    <string name="courseName">Course Name : </string>
+    <string name="rating">Please enter rating less than 5</string>
+    <string name="course_rated">Course Rated Sucessfully</string>
+    <string name="addCourse">Add Course</string>
+    <string name="nameCourse">Course Name</string>
+    <string name="rateCourse">Rate Course </string>
+    <string name="courseDesc">Professor Description</string>
+
+    <string name="error">Failed to read values</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nikhilesh.androidproject1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".HomepageActivity" />
+        <activity android:name=".UserInfoActivity" />
+        <activity android:name=".RateProfessorActivity" />
+        <activity android:name=".JobOpeningsActivity"></activity>
+        <activity android:name=".EventActivity"></activity>
+        <activity android:name=".RaterActivity" android:parentActivityName=".RateProfessorActivity"></activity>
+        <activity android:name=".ViewCourseActivity"></activity>
+        <activity android:name=".RateCoursesActivity" android:parentActivityName=".ViewCourseActivity"></activity>
+    </application>
+
+</manifest>

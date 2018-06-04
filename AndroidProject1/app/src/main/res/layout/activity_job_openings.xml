@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    tools:context=".JobOpeningsActivity">
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/jobOpeningEdtTitle"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:cacheColorHint="#00000000"
+            android:dividerHeight="5.0sp"
+            android:fadingEdge="none"
+            android:listSelector="#00000000"
+            android:scrollbars="none"
+            android:id="@+id/listView"></ListView>
+
+        <EditText
+            android:id="@+id/jobOpeningEdtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Title"
+            android:textColorHint="#505050"
+            android:textColor="#000000"
+            android:layout_above="@+id/jobOpeningEdtQualification"
+            android:maxLines="1" />
+
+
+
+        <EditText
+            android:id="@+id/jobOpeningEdtQualification"
+            android:layout_above="@+id/jobOpeningEdtContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:hint="Qualification"
+            android:textColorHint="#505050"
+            android:layout_gravity="center_horizontal"
+            android:maxLines="1" />
+
+
+        <EditText
+            android:id="@+id/jobOpeningEdtContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Contact"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:textColorHint="#505050"
+            android:layout_above="@+id/bottomBar"
+            android:textColor="#000000"
+            android:maxLines="1" />
+
+
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_above="@+id/bottomBar"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:id="@+id/btnSubmitJobOpening"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/bottomBar"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom">
+        <android.support.design.widget.BottomNavigationView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/bottomNavView_Bar"
+            app:menu="@menu/bottom_navigation_menu">
+
+        </android.support.design.widget.BottomNavigationView>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

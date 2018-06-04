@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_login_gradients"
+    tools:context="com.example.nikhilesh.androidproject1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LinearLayoutFirstLayer"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgLogoImage"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/pace_background_image"
+
+            />
+        
+
+
+        <EditText
+            android:id="@+id/edtEmailAddress"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:drawablePadding="12dp"
+            android:padding="8dp"
+            android:hint="Username"
+            android:textColorHint="#505050"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fffFFF"
+            android:layout_alignLeft="@+id/imgLogoImage"
+            android:layout_alignRight="@+id/imgLogoImage"
+            android:maxLines="1" />
+
+        <View
+            android:layout_width="240dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#f9d7db"/>
+        
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="12dp"
+            android:padding="8dp"
+            android:hint="Password"
+            android:textColorHint="#505050"
+            android:maxLines="1"
+            android:textColor="#ffffff"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="4dp"/>
+        
+        <View
+            android:layout_width="240dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#f9d7db"/>
+
+        <!--<CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:textColor="#fff"
+            android:padding="8dp"/>-->
+
+        <Button
+            android:id="@+id/btnLogIn"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_login"
+            android:text="Log In"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_gravity="center_horizontal"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_marginTop="24dp"
+            android:textSize="18sp"/>
+        
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="240dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_signup"
+            android:text="REGISTER"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:textSize="18sp"
+            android:padding="16dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

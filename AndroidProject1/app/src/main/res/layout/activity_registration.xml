@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/new_login_gradients"
+    tools:context="com.example.nikhilesh.androidproject1.RegistrationActivity">
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="REGISTER"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#DAA520  "
+
+        />
+
+
+    <EditText
+        android:id="@+id/edtFirstName"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="First Name"
+        android:textColorHint="#505050"
+        android:textColor="#fff"
+        android:maxLines="1" />
+
+    <View
+
+        android:layout_width="240dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#f9d7db"/>
+
+
+    <EditText
+        android:id="@+id/edtLastName"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:paddingTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Last Name"
+        android:textColorHint="#505050"
+        android:textColor="#fff"
+        android:maxLines="1" />
+
+    <View
+        android:layout_width="240dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#f9d7db"/>
+
+    <EditText
+        android:id="@+id/edtEmailAddress"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:paddingTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Email Address"
+        android:textColorHint="#505050"
+        android:textColor="#fff"
+        android:maxLines="1" />
+
+    <View
+        android:layout_width="240dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#f9d7db"/>
+
+
+    <EditText
+        android:id="@+id/edtGraduationYear"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:paddingTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Graduation Year"
+        android:textColorHint="#505050"
+        android:textColor="#fff"
+        android:maxLines="1" />
+
+    <View
+        android:layout_width="240dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#f9d7db"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:paddingTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Password"
+        android:textColorHint="#505050"
+        android:textColor="#fff"
+        android:maxLines="1" />
+
+    <View
+        android:layout_width="240dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#f9d7db"/>
+
+    <EditText
+        android:id="@+id/edtConfirmPassword"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:paddingTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Confirm Password"
+        android:textColorHint="#505050"
+        android:textColor="#fff"
+        android:maxLines="1" />
+
+    <View
+        android:layout_width="240dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#f9d7db"/>
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_login"
+        android:text="UPLOAD IMAGE"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="16dp"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_login"
+        android:text="REGISTER"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp"/>
+
+</LinearLayout>
